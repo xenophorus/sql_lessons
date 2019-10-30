@@ -18,7 +18,7 @@ create table users (
 drop table if exists uprofiles;
 create table uprofiles (
     user_id SERIAL PRIMARY KEY,
-    fender CHAR(1),
+    gender CHAR(1),
     birthday DATE,
     hometown VARCHAR(100),
     photo_id BIGINT UNSIGNED NULL,
@@ -31,4 +31,53 @@ add constraint fk_user_id
     on update cascade
     on delete restrict
 ;
--- 45:56
+
+drop table if exists messages;
+create table messages (
+    id SERIAL PRIMARY KEY,
+    from_user_id BIGINT UNSIGNED NOT NULL,
+    to_user_id BIGINT UNSIGNED NOT NULL,
+    body TEXT,
+    created_at DATETIME DEFAULT NOW(),
+
+    foreign key (from_user_id) references users(id),
+    foreign key (to_user_id) references users(id),
+    INDEX (from_user_id),
+    INDEX (to_user_id)
+);
+
+drop table if exists fr_requests;
+create table fr_requests (
+    initiator_user_id BIGINT UNSIGNED NOT NULL,
+    targer_user_id BIGINT UNSIGNED NOT NULL,
+    status ENUM ('requested', 'approved', 'declined', 'unfriended'),
+    reated_at DATETIME DEFAULT NOW(),
+    updated_at DATETIME DEFAULT NOW(),
+
+    primary key (initiator_user_id, targer_user_id),
+    index (initiator_user_id),
+    index (targer_user_id),
+    foreign key (initiator_user_id) references users(id),
+    foreign key (targer_user_id) references users(id)
+);
+
+drop table if exists communities;
+create table communities (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(150),
+    admin_user_id BIGINT UNSIGNED NOT NULL
+);
+
+drop table if exists users_communities;
+create table users_communities (
+    user_id SERIAL PRIMARY KEY,
+    community_id BIGINT UNSIGNED NOT NULL,
+
+    foreign key (user_id) references users(id),
+    foreign key (community_id) references communities(id)
+);
+
+drop table if exists media_types;
+create table media_types (
+
+);
