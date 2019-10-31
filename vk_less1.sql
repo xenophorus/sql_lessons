@@ -79,5 +79,56 @@ create table users_communities (
 
 drop table if exists media_types;
 create table media_types (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(150)
+);
 
+drop table if exists media;
+create table media (
+    id SERIAL PRIMARY KEY,
+    media_type_id BIGINT UNSIGNED NOT NULL,
+    user_id BIGINT UNSIGNED NOT NULL,
+    body TEXT,
+    filename VARCHAR(250),
+    filesize INT,
+    metadata JSON,
+    created_at DATETIME DEFAULT NOW(),
+    updated_at DATETIME DEFAULT NOW() on update current_timestamp,
+
+    foreign key (user_id) references users(id),
+    foreign key (media_type_id) references communities(id),
+    INDEX (user_id)
+
+);
+
+DROP TABLE IF EXISTS likes;
+CREATE TABLE likes (
+    id SERIAL PRIMARY KEY,
+    media_id BIGINT UNSIGNED NOT NULL,
+    user_id BIGINT UNSIGNED NOT NULL,
+    created_at DATETIME DEFAULT NOW(),
+
+    foreign key (media_id) references media(id),
+    foreign key (user_id) references users(id)
+);
+
+DROP TABLE IF EXISTS photoalb;
+CREATE TABLE photoalb (
+    id SERIAL,
+    user_id BIGINT UNSIGNED NOT NULL,
+    name VARCHAR(150),
+    PRIMARY KEY (id),
+    foreign key (user_id) references users(id)
+
+);
+
+drop table if exists photo;
+create table photo (
+    id SERIAL,
+    album_id BIGINT UNSIGNED NOT NULL,
+    media_id BIGINT UNSIGNED NOT NULL,
+    name VARCHAR(150),
+    PRIMARY KEY (id),
+    foreign key (album_id) references photoalb(id),
+    foreign key (media_id) references media(id)
 );
