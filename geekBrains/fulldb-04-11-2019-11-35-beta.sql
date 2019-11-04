@@ -12,6 +12,10 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
+drop database if exists vk;
+create database vk;
+use vk;
+
 DROP TABLE IF EXISTS `communities`;
 CREATE TABLE `communities` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
@@ -1280,3 +1284,31 @@ INSERT INTO `users_communities` VALUES ('1','1'),
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+select * from users where surname like 'F%';
+
+select * from users where email like 'f%';
+
+select * from users ORDER BY name;
+
+alter table users add created_at date;
+alter table users add updated_at date;
+
+update users
+set
+    created_at = now(),
+    updated_at = now();
+
+select DATE_FORMAT(users.created_at, '%d.%m.%Y') as created_at from users;
+
+alter table users modify column created_at varchar(100);
+
+update users set created_at = DATE_FORMAT(created_at, '%d.%m.%Y');
+
+select created_at from users limit 6;
+
+select STR_TO_DATE(created_at, '%d.%m.%Y') as created_at from users;
+
+update users set created_at = STR_TO_DATE(created_at, '%d.%m.%Y'); -- as created_at from users;
+
+
+alter table users modify column created_at date;

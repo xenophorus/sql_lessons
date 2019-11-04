@@ -10,6 +10,7 @@ create table users (
     email VARCHAR(100) UNIQUE,
     pass_hash VARCHAR(100),
     phone VARCHAR(20) UNIQUE,
+    birthday DATE,
 
     INDEX users_phone_idx(phone),
     INDEX (name, surname)
@@ -219,3 +220,4 @@ update fr_requests
 
 
 select * from fr_requests;
+
