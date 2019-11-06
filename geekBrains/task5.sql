@@ -46,3 +46,17 @@ SELECT CONCAT (name, ', ', surname, ' is ',
 as 'Ages' FROM users
 ;
 
+-- 2.
+
+select dayname(concat(date_format(now(), '%Y'), date_format(birthday, '%m%d'))),
+    count(*) as total
+from users
+group by
+dayname(concat(date_format(now(), '%Y'), date_format(birthday, '%m%d')))
+order by total
+desc
+;
+
+/*
+Делал с помощь гугла.
+*/
