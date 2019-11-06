@@ -152,8 +152,12 @@ from users
 ;
 
 select makedate(2019, dayofyear(birthday)) from users;
-select birthday from users;
-select DATE_FORMAT(CONCAT(year(now()), month(birthday), day(birthday)), '%Y-%m-%d') from users;
+
+select makedate(2019, dayofyear(birthday)) from users;
+
+select date(year(now()), month(birthday), day(birthday)) from users;
+
+select rpad(date_format(birthday, '%Y%m%d'), 4, '') from users;
 
 
 
