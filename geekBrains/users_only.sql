@@ -144,9 +144,52 @@ INSERT INTO `users` VALUES ('1','Jarvis','Gutkowski','george.keebler@example.org
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 select * from users
-order by birthday between '1970%' and '1999%',
-         birthday between '2010%' and NOW();
+where monthname(birthday) in ('May', 'August')
+;
 
-select * from users
-order by name in between 'C%' and 'Z%',
-         name like between 'A%' and 'B%';
+select dayname(date(date_format(birthday, '%m %y')))
+from users
+;
+
+select makedate(2019, dayofyear(birthday)) from users;
+select birthday from users;
+select DATE_FORMAT(CONCAT(year(now()), month(birthday), day(birthday)), '%Y-%m-%d') from users;
+
+
+
+
+/*
+drop table if exists smth;
+create table smth (
+    id INT,
+    val INT
+);
+
+insert into smth
+values (1, 20),
+       (2, 350),
+       (3, 23),
+       (4, 0),
+       (5, 14),
+       (6, 7),
+       (7, 0),
+       (8, 24);
+
+select * from smth
+order by val < 1, val ASC
+;
+*/
+
+SELECT CONCAT (name, ', ', surname, ' is ',
+(TO_DAYS(NOW()) - TO_DAYS(birthday)) div 365, ' years old')
+as 'Ages' FROM users
+;
+
+
+
+
+
+;
+
+
+
