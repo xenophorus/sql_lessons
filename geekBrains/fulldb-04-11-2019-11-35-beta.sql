@@ -1283,7 +1283,7 @@ INSERT INTO `users_communities` VALUES ('1','1'),
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
+/*
 select * from users where surname like 'F%';
 
 select * from users where email like 'f%';
@@ -1312,3 +1312,6 @@ update users set created_at = STR_TO_DATE(created_at, '%d.%m.%Y'); -- as created
 
 
 alter table users modify column created_at date;
+*/
+
+
