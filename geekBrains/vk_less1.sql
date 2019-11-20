@@ -66,7 +66,8 @@ drop table if exists communities;
 create table communities (
     id SERIAL PRIMARY KEY,
     name VARCHAR(150),
-    admin_user_id BIGINT UNSIGNED NOT NULL
+    admin_user_id BIGINT UNSIGNED NOT NULL,
+    foreign key (admin_user_id) references users(id)
 );
 
 drop table if exists users_communities;
@@ -137,8 +138,8 @@ create table photo (
 ALTER TABLE vk.users ADD is_deleted BIT DEFAULT 0 NOT NULL;
 
 
-insert into users (id, name, surname, email, phone)
-    values (1, 'Alex', 'Smith', 'alex@mail.com', '93719586565');
+insert into users (name, surname, email, phone)
+    values ('Alex', 'Smith', 'alex@mail.com', '93719586565');
 
 insert into users (name, surname, email, phone)
     values ('Jacob', 'Cliff', 'cl_jacob@mail.com', '93719586535');
@@ -152,11 +153,11 @@ insert into users (name, surname, email, phone)
 insert into users (name, surname, email, phone)
     values ('John', 'O\'Connor', 'joconnor@mail.com', '93719587124');
 
-insert into users (id, name, surname, email, pass_hash, phone)
-    values (55, 'Jeanne', 'Cousteau', 'jcousteau@mail.com', null, '93719557423');
+insert into users (name, surname, email, pass_hash, phone)
+    values ('Jeanne', 'Cousteau', 'jcousteau@mail.com', null, '93719557423');
 
-insert into users (id, name, surname, email, pass_hash, phone)
-    values (66, 'Lynda', 'Jones', 'ljones@mail.com', null, '93719457423');
+insert into users (name, surname, email, pass_hash, phone)
+    values ('Lynda', 'Jones', 'ljones@mail.com', null, '93719457423');
 
 insert into users (name, surname, email, phone) values
         ('John', 'McAdams', 'jomcadams@mail.com', '93719587156'),
@@ -190,17 +191,17 @@ where name='Ann';
 
 insert into fr_requests (initiator_user_id, targer_user_id, status)
 VALUES
-    (1, 55, 'requested'),
-    (1, 66, 'requested'),
-    (1, 67, 'requested'),
-    (1, 68, 'requested'),
+    (1, 45, 'requested'),
+    (1, 36, 'requested'),
+    (1, 37, 'requested'),
+    (1, 38, 'requested'),
     (1, 2, 'requested');
 
 update fr_requests
     set
         status = 'approved'
     where
-        initiator_user_id = 1 and targer_user_id = 66
+        initiator_user_id = 1 and targer_user_id = 36
         and status = 'requested';
 
 update fr_requests
@@ -215,7 +216,7 @@ update fr_requests
         status = 'approved',
         updated_at = NOW()
     where
-        initiator_user_id = 1 and targer_user_id = 67
+        initiator_user_id = 1 and targer_user_id = 47
         and status = 'requested';
 
 
