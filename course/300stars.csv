@@ -1,0 +1,302 @@
+Alpha, CMa, Sirius, A1V, -1.46, 1.43,9
+Alpha, Car, Canopus, F0Ib, -0.73, -5.64,310
+Alpha, Cen, Rigil Kentaurus, G2V+K1V, -0.29, 4.06,4
+Alpha, Boo, Arcturus, K2III, -0.05, -0.31,37
+Alpha, Lyr, Vega, A0V, 0.03, 0.58,25
+Alpha, Aur, Capella, G5III+G0III, 0.07, -0.49,42
+Beta, Ori, Rigel, B8Ia, 0.15v, -6.72v,770
+Alpha, CMi, Procyon, F5IV-V, 0.36, 2.64,11
+Alpha, Eri, Achernar, B3V, 0.45, -2.77,144
+Alpha, Ori, Betelgeuse, M2Ib, 0.55v, -5.04v,430
+Beta, Cen, Hadar, B1III, 0.61, -5.42,530
+Alpha, Aql, Altair, A7V, 0.77, 2.21,17
+Alpha, Cru, Acrux, B0.5IV+B1V, 0.79, -4.17,320
+Alpha, Tau, Aldebaran, K5III, 0.86v, -0.64v,65
+Alpha, Sco, Antares, M1Ib+B4V, 0.95v, -5.39v,600
+Alpha, Vir, Spica, B1V+B2V, 0.97, -3.56,260
+Beta, Gem, Pollux, K0III, 1.14, 1.07,34
+Alpha, PsA, Fomalhaut, A3V, 1.15, 1.72,25
+Alpha, Cyg, Deneb, A2Ia, 1.24, -8.74,3000
+Beta, Cru, Mimosa, B0.5III, 1.26, -3.91,350
+Alpha, Leo, Regulus, B7V, 1.36, -0.52,78
+Epsilon, CMa, Adhara, B2II, 1.50, -4.10,430
+Alpha, Gem, Castor, A1V+A2V, 1.58, 0.59,52
+Lambda, Sco, Shaula, B2IV, 1.62, -5.05,700
+Gamma, Cru, Gacrux, M3.5III, 1.63, -0.52,88
+Gamma, Ori, Bellatrix, B2III, 1.64, -2.72,240
+Beta, Tau, Elnath, B7III, 1.66, -1.36,130
+Beta, Car, Miaplacidus, A2III, 1.67, -0.99,111
+Epsilon, Ori, Alnilam, B0Ia, 1.69, -6.38,1300
+Alpha, Gru, Alnair, B7IV, 1.74, -0.72,101
+Zeta, Ori, Alnitak, O9.5Ib+B0III, 1.75, -5.25,820
+Epsilon, UMa, Alioth, A0IV, 1.77, -0.20,81
+Alpha, Per, Mirfak, F5Ib, 1.80, -4.49,590
+Alpha, UMa, Dubhe, K0III+F0V, 1.80, -1.09,124
+Gamma, Vel, Regor, WC8+O9Ib, 1.81, -5.25,840
+Delta, CMa, Wezen, F8Ia, 1.83, -6.87,1800
+Epsilon, Sge, Kaus Australis, B9.5III, 1.84, -1.39,145
+Eta, UMa, Alkaid, B3V, 1.86, -0.59,101
+Theta, Sco, Sargas, F1II, 1.86, -2.75,270
+Epsilon, Car, Avior, K3II+B2V, 1.87, -4.57,630
+Beta, Aur, Menkalinan, A2IV, 1.90, -0.10,82
+Alpha, TrA, Atria, K2Ib-II, 1.92, -3.61,420
+Gamma, Gem, Alhena, A0IV, 1.93, -0.60,105
+Alpha, Pav, Peacock, B0.5V+B2V, 1.93, -1.82,180
+Delta, Vel, Koo She, A0V, 1.95, 0.01,80
+Beta, CMa, Mirzam, B1III, 1.98, -3.95,500
+Alpha, Hya, Alphard, K3II, 1.98, -1.70,180
+Alpha, UMi, Polaris, F7Ib-II, 1.99v, -3.62v,430
+Gamma, Leo, Algieba, K0III+G7III, 2.00, -0.93,126
+Alpha, Ari, Hamal, K2III, 2.01, 0.48,66
+Beta, Cet, Diphda, K0III, 2.04, -0.30,96
+Sigma, Sge, Nunki, B3V, 2.05, -2.14,220
+Theta, Cen, Menkent, K0III, 2.06, 0.70,61
+Alpha, And, Alpheratz, B9IV, 2.07, -0.30,97
+Beta, And, Mirach, M0II, 2.07, -1.86,200
+Kappa, Ori, Saiph, B0.5III, 2.07, -4.65,720
+Beta, UMi, Kochab, K4III, 2.07, -0.87,127
+Beta, Gru, Al Dhanab, M5III, 2.07v, -1.52v,170
+Alpha, Oph, Rasalhague, A5III-IV, 2.08, 1.30,47
+Beta, Per, Algol, B8V+G5IV+A, 2.09e, -0.18,93
+Gamma, And, Almach, K3II+B8V+A0V, 2.10, -3.08,360
+Beta, Leo, Denebola, A3V, 2.14, 1.92,36
+Gamma, Cas, Cih, B0IV, 2.15v, -4.22v,610
+Gamma, Cen, Muhlifain, A0III+A0III, 2.20, -0.81,130
+Zeta, Pup, Naos, O5Ia, 2.21, -5.95,1400
+Iota, Car, Aspidiske, A8Ib, 2.21v, -4.42v,690
+Alpha, CrB, Alphecca, A0V+G5V, 2.22e, 0.42,75
+Lambda, Vel, Suhail, K4Ib, 2.23, -3.99,570
+Zeta, UMa, Mizar, A2V+A2V+A1V, 2.23, 0.33,78
+Gamma, Cyg, Sadr, F8Ib, 2.23, -6.12,1500
+Alpha, Cas, Schedar, K0II, 2.24, -1.99,230
+Gamma, Dra, Eltanin, K5III, 2.24, -1.04,148
+Delta, Ori, Mintaka, O9.5II+B2V, 2.25e, -4.99,920
+Beta, Cas, Caph, F2III, 2.28, 1.17,55
+Epsilon, Cen, , B1III, 2.29, -3.02,380
+Delta, Sco, Dschubba, B0.5IV, 2.29, -3.16,400
+Epsilon, Sco, Wei, K2.5III, 2.29, 0.78,65
+Alpha, Lup, Men, B1.5III, 2.30, -3.83,550
+Eta, Cen, , B1.5V, 2.33v, -2.55v,310
+Beta, UMa, Merak, A1V, 2.34, 0.41,79
+Epsilon, Boo, Izar, K0II-III+A2V, 2.35, -1.69,210
+Epsilon, Peg, Enif, K2Ib, 2.38, -4.19,670
+Kappa, Sco, Girtab, B1.5III, 2.39, -3.38,460
+Alpha, Phe, Ankaa, K0III, 2.40, 0.52,77
+Gamma, UMa, Phecda, A0V, 2.41, 0.36,84
+Eta, Oph, Sabik, A1V+A3V, 2.43, 0.37,84
+Beta, Peg, Scheat, M2III, 2.44v, - 1.49v,200
+Eta, CMa, Aludra, B5Ia, 2.45, -7.51,3000
+Alpha, Cep, Alderamin, A7IV, 2.45, 1.58,49
+Kappa, Vel, Markeb, B2IV, 2.47, -3.62,540
+Epsilon, Cyg, Gienah, K0III, 2.48, 0.76,72
+Alpha, Peg, Markab, B9IV, 2.49, -0.67,140
+Alpha, Cet, Menkar, M2III, 2.54, -1.61,220
+Zeta, Oph, Han, O9.5V, 2.54, -3.20,460
+Zeta, Cen, Al Nair al Kent., B2.5IV, 2.55, -2.81,390
+Delta, Leo, Zosma, A4V, 2.56, 1.32,58
+Beta, Sco, Graffias, B1V+B2V, 2.56, -3.50,530
+Alpha, Lep, Arneb, F0Ib, 2.58, -5.40,1300
+Delta, Cen, , B2IV, 2.58v, -2.84v,400
+Gamma, Crv, Gienah Ghurab, B8III, 2.58, -0.94,165
+Zeta, Sge, Ascella, A2IV+A4V, 2.60, 0.42,89
+Beta, Lib, Zubeneschamali, B8V, 2.61, -0.84,160
+Alpha, Ser, Unukalhai, K2III, 2.63, 0.87,73
+Beta, Ari, Sheratan, A5V, 2.64, 1.33,60
+Alpha, Lib, Zubenelgenubi, A3IV+F4IV, 2.64, 0.77,77
+Alpha, Col, Phact, B7IV, 2.65, -1.93,270
+Theta, Aur, , A0III+G2V, 2.65, -0.98,170
+Beta, Crv, Kraz, G5III, 2.65, -0.51,140
+Delta, Cas, Ruchbah, A5III, 2.66, 0.24,99
+Eta, Boo, Muphrid, G0IV, 2.68, 2.41,37
+Beta, Lup, Ke Kouan, B2III, 2.68, -3.35,520
+Iota, Aur, Hassaleh, K3II, 2.69, -3.29,510
+Mu, Vel, , G5III+G2V, 2.69, -0.06,116
+Alpha, Mus, , B2V, 2.69, -2.17,310
+Upsilon ,Sco, Lesath, B2IV, 2.70, -3.31,520
+Pi, Pup, , K4Ib, 2.71, -4.92,1100
+Delta, Sge, Kaus Meridionalis, K2II, 2.72, -2.14,310
+Gamma, Aql, Tarazed, K3II, 2.72, -3.03,460
+Delta, Oph, Yed Prior, M1III, 2.73, -0.86,170
+Eta, Dra, Aldhibain, G8III, 2.73, 0.58,88
+Theta, Car, , B0V, 2.74, -2.91,440
+Gamma, Vir, Porrima, F0V+F0V, 2.74, 2.38,39
+Iota, Ori, Hatysa, O9III, 2.75, -5.30,1300
+Iota, Cen, , A2V, 2.75, 1.48,59
+Beta, Oph, Cebalrai, K2III, 2.76, 0.76,82
+Beta, Eri, Kursa, A3III, 2.78, 0.60,89
+Beta, Her, Kornephoros, G7III, 2.78, -0.50,150
+Delta, Cru, , B2IV, 2.79, -2.45,360
+Beta, Dra, Rastaban, G2II, 2.79, -2.43,360
+Alpha, CVn, Cor Caroli, A0IV+F0V, 2.80v, 0.16v,110
+Gamma, Lup, , B2IV-V+B2IV-V, 2.80, -3.40,570
+Beta, Lep, Nihal, G5III, 2.81, -0.63,160
+Zeta, Her, Rutilicus, F9IV+G7V, 2.81, 2.64,35
+Beta, Hyi, , G2IV, 2.82, 3.45,24
+Tau, Sco, , B0V, 2.82, -2.78,430
+Lambda, Sge, Kaus Borealis, K1III, 2.82, 0.95,77
+Gamma, Peg, Algenib, B2IV, 2.83, -2.22,330
+Rho, Pup, Turais, F6III, 2.83, 1.41,63
+Beta, TrA, , F2IV, 2.83, 2.38,40
+Zeta, Per, , B1II+B8IV+A2V, 2.84, -4.55,980
+Beta, Ara, , K3Ib-II, 2.84, -3.49,600
+Alpha, Ara, Choo, B2V, 2.84, -1.51,240
+Eta, Tau, Alcyone, B7III, 2.85, -2.41,370
+Epsilon, Vir, Vindemiatrix, G8III, 2.85, 0.37,102
+Delta, Cap, Deneb Algedi, A5V, 2.85e, 2.49,39
+Alpha, Hyi, Head of Hydrus, F0III, 2.86, 1.16,71
+Delta, Cyg, , B9.5III+F1V, 2.86, -0.74,170
+Mu, Gem, Tejat, M3III, 2.87v, -1.39v,230
+Gamma, TrA ,, A1III, 2.87, -0.87,180
+Alpha, Tuc, , K3III, 2.87, -1.05,200
+Theta, Eri, Acamar, A4III+A1V, 2.88, -0.59,160
+Pi, Sge, Albaldah, F2II, 2.88, -2.77,440
+Beta, CMi, Gomeisa, B8V, 2.89, -0.70,170
+Pi, Sco, , B1V+B2V, 2.89, -2.85,460
+Epsilon, Per, , B0.5V+A2V, 2.90, -3.19,540
+Sigma, Sco, Alniyat, B1III, 2.90v, -3.86v,730
+Beta, Cyg, Albireo, K3II+B8V+B9V, 2.90, -2.31,390
+Beta, Aqr, Sadalsuud, G0Ib, 2.90, -3.47,610
+Gamma, Per, , G8III+A2V, 2.91, -1.57,260
+Upsilon, Car, , A7Ib+B7III, 2.92, -5.56,1600
+Eta, Peg, Matar, G2II-III+F0V, 2.93, -1.16,215
+Tau, Pup, , K1III, 2.94, -0.80,185
+Delta, Crv, Algorel, B9.5V, 2.94, 0.79,88
+Alpha, Aqr, Sadalmelik, G2Ib, 2.95, -3.88,760
+Gamma, Eri, Zaurak, M1III, 2.97, -1.19,220
+Zeta, Tau, Alheka, B4III, 2.97, -2.56,420
+Epsilon, Leo, Ras Elased Austr., G1II, 2.97, -1.46,250
+Gamma, Sge, Alnasl, K0III, 2.98, 0.63,96
+Gamma, Hya, , G8III, 2.99, -0.05,132
+Iota, Sco, , F2Ia, 2.99, -5.71,1800
+Zeta, Aql, Deneb el Okab, A0V, 2.99, 0.96,83
+Beta, Tri, , A5III, 3.00, 0.09,124
+Psi, UMa,, K1III, 3.00, -0.27,147
+Gamma, UMi, Pherkad Major, A3II, 3.00, -2.84,480
+Mu, Sco, , B1.5V+B6.5V, 3.00, -4.01,820
+Gamma, Gru, , B8III, 3.00, -0.97,205
+Delta, Per, , B5III, 3.01, -3.04,530
+Zeta, CMa, Phurad, B2.5V, 3.02, -2.05,340
+Omicron, CMa, , B3Ia, 3.02, -6.46,2600
+Epsilon, Crv, Minkar, K2II, 3.02, -1.82,300
+Epsilon, Aur, Almaaz, F0Ia, 3.03e, -5.95,2000
+Beta, Mus, , B2V+B3V, 3.04, -1.86,310
+Gamma, Boo, Seginus, A7III, 3.04, 0.96,85
+Beta, Cap, Dabih, G5II+A0V, 3.05, -2.07,340
+Epsilon, Gem, Mebsuta, G8Ib, 3.06, -4.15,900
+Mu, UMa, Tania Australis, M0III, 3.06e, -1.35,250
+Delta, Dra, Tais, G9III, 3.07, 0.63,100
+Eta, Sge, , M3.5III, 3.10, -0.20,149
+Zeta, Hya, , G9III, 3.11, -0.21,150
+Nu, Hya,, K2III, 3.11, -0.03,139
+Lambda, Cen, , B9III, 3.11, -2.39,410
+Alpha, Ind, Persian, K0III, 3.11, 0.65,101
+Beta, Col, Wazn, K2III, 3.12, 1.02,86
+Iota, UMa, Talita, A7IV, 3.12, 2.29,48
+Zeta, Ara, , K3II, 3.12, -3.11,570
+Delta, Her, Sarin, A3IV, 3.12, 1.21,78
+Kappa, Cen, Ke Kwan, B2IV, 3.13, -2.96,540
+Alpha, Lyn, , K7III, 3.14, -1.02,220
+N, Vel, , K5III, 3.16, -1.15,240
+Pi, Her, , K3II, 3.16, -2.10,370
+Nu, Pup, , B8III, 3.17, -2.39,420
+Theta, UMa, Al Haud, F6IV, 3.17, 2.52,44
+Zeta, Dra, Aldhibah, B6III, 3.17, -1.92,340
+Phi, Sge, , B8III, 3.17, -1.08,230
+Eta, Aur, Hoedus II, B3V, 3.18, -0.96,220
+Alpha, Cir, , F0V+K5V, 3.18, 2.11,53
+Pi, Ori, Tabit, F6V, 3.19, 3.67,26
+Epsilon, Lep, , K5III, 3.19, -1.02,225
+Kappa, Oph, , K2III, 3.19, 1.09,86
+G, Sco, , K2III, 3.19, 0.24,127
+Zeta, Cyg, , G8III, 3.21, -0.12,151
+Gamma, Cep, Errai, K1IV, 3.21, 2.51,45
+Delta, Lup, , B1.5IV, 3.22, -2.75,510
+Epsilon, Oph, Yed Posterior, G9III, 3.23, 0.64,108
+Eta, Ser, Alava, K0III-IV, 3.23, 1.84,62
+Beta, Cep, Alphirk, B2III, 3.23v, -3.08v,600
+Alpha, Pic, , A7III, 3.24, 0.83,99
+Theta, Aql, , B9.5III, 3.24, -1.48,285
+Sigma, Pup, , K5III+G5V, 3.25, -0.51,185
+Pi, Hya, , K2III, 3.25, 0.79,101
+Sigma, Lib, Brachium, M3III, 3.25, -1.51,290
+Gamma, Lyr, Sulaphat, B9II, 3.25, -3.20,630
+Gamma, Hyi, , M2III, 3.26, -0.83,215
+Delta, And, , K3III, 3.27, 0.81,101
+Theta, Oph, , B2IV, 3.27, -2.92,560
+Delta, Aqr, Skat, A3III, 3.27, -0.18,160
+Mu, Lep, , B9IV, 3.29v, -0.47v,185
+Omega, Car, , B8III, 3.29, -1.99,370
+Iota, Dra, Edasich, K2III, 3.29, 0.81,102
+Alpha, Dor, , A0IV+B9IV, 3.30, -0.36,175
+p, Car, , B4V, 3.30, -2.62,500
+Mu, Cen, , B2IV-V, 3.30v, -2.74v,530
+Eta, Gem, Propus, M3III, 3.31v, -1.84v,350
+Alpha, Her, Rasalgethi, M5III+G5III, 3.31v, -2.04v,380
+Gamma, Ara, , B1III, 3.31, -4.40,1100
+Beta, Phe, , G8III, 3.32, -0.55,190
+Rho, Per, Gorgonea Tertia, M3III, 3.32v, -1.67v,325
+Delta, UMa, Megrez, A3V, 3.32, 1.33,81
+Eta, Sco, , F3III-IV, 3.32, 1.61,72
+Nu, Oph, , K0III, 3.32, -0.03,155
+Tau, Sge, , K1III, 3.32, 0.48,120
+Alpha, Ret, , G8III, 3.33, -0.17,165
+Theta, Leo, Chort, A2III, 3.33, -0.35,180
+Xi, Pup, Asmidiske, G5Ib, 3.34, -4.74,1300
+Epsilon, Cas, Segin, B2III, 3.35, -2.31,440
+Eta, Ori, Algjebbah, B1V+B2V, 3.35, -3.86,900
+Xi, Gem, Alzirr, F5IV, 3.35, 2.13,57
+Omicron, UMa, Muscida, G5III, 3.35v, -0.40v,185
+Delta, Aql, , F2IV, 3.36, 2.43,50
+Epsilon, Lup, , B2IV-V, 3.37, -2.58,500
+Zeta, Vir, Heze, A3V, 3.38, 1.62,73
+Epsilon, Hya, , G5III+A8V+F7V, 3.38, 0.29,135
+Lambda, Ori, Meissa, O8III, 3.39, -4.16,1100
+q, Car, , K3II, 3.39, -3.38,740
+Delta, Vir, Auva, M3III, 3.39, -0.57,200
+Zeta, Cep, , K1II, 3.39, -3.35,730
+Theta, Tau, , A7III, 3.40, 0.10,150
+Gamma, Phe, , K5III, 3.41, -0.87,235
+Lambda, Tau, , B3V+A4IV, 3.41e, -1.87,370
+Nu, Cen, , B2IV, 3.41, -2.41,475
+Zeta, Lup, , G8III, 3.41, 0.65,116
+Eta, Cep, , K0IV, 3.41, 2.63,47
+Zeta, Peg, Homam, B8.5V, 3.41, -0.62,210
+Alpha, Tri, Mothallah, F6IV, 3.42, 1.95,64
+Eta, Lup, , B2.5IV+A5V, 3.42, -2.48,495
+Mu, Her, , G5IV, 3.42, 3.80,27
+Beta, Pav, , A7III, 3.42, 0.29,140
+a, Car, , B2IV, 3.43, -2.11,420
+Zeta, Leo, Adhafera, F0II-III, 3.43, -1.08,260
+Lambda, Aql, Althalimain, B9V, 3.43, 0.51,125
+Lambda, UMa, Tania Borealis, A2IV, 3.45, 0.38,135
+Beta, Lyr, Sheliak, B8II, 3.45e, -3.71,880
+Eta, Cas, Achird, G0V+K7V, 3.46, 4.59,19
+Eta, Cet, Dheneb, K2III, 3.46, 0.67,118
+Chi, Car, , B3IV, 3.46, -1.91,390
+Delta, Boo, , G8III, 3.46, 0.69,117
+Gamma, Cet, Kaffaljidhma, A3V+F3V+K5V, 3.47, 1.47,82
+Eta, Leo, , A0Ib, 3.48, -5.60,2100
+Eta, Her, , G8III, 3.48, 0.80,112
+Tau, Cet, , G8V, 3.49, 5.68,12
+Sigma, CMa, , K7Ib, 3.49, -4.37,1200
+Nu, UMa, Alula Borealis, K3II, 3.49, -2.07,420
+Beta, Boo, Nekkar, G8III, 3.49, -0.64,220
+Alpha, Tel, , B3IV, 3.49, -0.93,250
+Epsilon, Gru, , A3V, 3.49, 0.49,130
+Kappa, CMa, , B1.5IV, 3.50, -3.42,790
+Delta, Gem, Wasat, F2IV+K3V, 3.50, 2.22,59
+Iota, Cep, , K0III, 3.50, 0.76,115
+Gamma, Sge, , K5III, 3.51, -1.11,270
+Mu, Peg, Sadalbari, G8III, 3.51, 0.74,117
+Delta, Eri, Rana, K0IV, 3.52, 3.74,29
+Omicron, Leo, Subra, A9V+F6V, 3.52, 0.43,135
+Phi, Vel, Tseen Ke, B5Ib, 3.52, -5.34,1900
+Xi, Sge, , K0II, 3.52, -1.77,370
+Theta, Peg, Baham, A2V, 3.52, 1.16,97
+Epsilon, Tau, Ain, K0III, 3.53, 0.15,155
+Beta, Cnc, Tarf, K4III, 3.53, -1.24,290
+Xi, Hya, , G8III, 3.54, 0.55,130
+Mu, Ser, , A0V, 3.54, 0.14,155
+Xi, Ser, , F0III, 3.54, 0.99,105
+,,,,,,
+Bayer name for the star ,,Proper name of the star. ,Spectral classification of the main stars ,visual magnitude of the star. ,Absolute magnitude of the star ,The distance in light years (=3.2616/parallax). 

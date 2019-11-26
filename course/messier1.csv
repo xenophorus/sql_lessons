@@ -1,0 +1,111 @@
+Messier number,NGC/IC number,Common name,Object type,Constellation,Apparent magnitude 
+M1,NGC 1952,Crab Nebula,Supernova remnant,Tau,8.4
+M2,NGC 7089,,Globular cluster,Aqr,6.3 
+M3,NGC 5272,,Globular cluster,CVn,6.2 
+M4,NGC 6121,,Globular cluster,Sca,5.9 
+M5,NGC 5904,,Globular cluster,Ser,6.7 
+M6,NGC 6405,Butterfly Cluster,Open cluster,Sca,4.2 
+M7,NGC 6475,Ptolemy Cluster,Open cluster,Sca,3.3 
+M8,NGC 6523,Lagoon Nebula,Nebula with cluster,Sgr,6.0 
+M9,NGC 6333,,Globular cluster,Oph,8.4 
+M10,NGC 6254,,Globular cluster,Oph,6.4 
+M11,NGC 6705,Wild Duck Cluster,Open cluster,Sct,6.3 
+M12,NGC 6218,,Globular cluster,Oph,7.7 
+M13,NGC 6205,Great Globular Cluster in Her,Globular cluster,Her,5.8 
+M14,NGC 6402,,Globular cluster,Oph,8.3 
+M15,NGC 7078,,Globular cluster,Peg,6.2 
+M16,NGC 6611,Eagle Nebula,H II region nebula with cluster,Ser,6.0 
+M17,NGC 6618,"Omega, Swan, Horseshoe, or Lobster Nebula ",H II region nebula with cluster,Sgr,6.0 
+M18,NGC 6613,,Open cluster,Sgr,7.5 
+M19,NGC 6273,,Globular cluster,Oph,7.5 
+M20,NGC 6514,Trifid Nebula,H II region nebula with cluster,Sgr,6.3 
+M21,NGC 6531,,Open cluster,Sgr,6.5 
+M22,NGC 6656,Sgr Cluster,Globular cluster,Sgr,5.1 
+M23,NGC 6494,,Open cluster,Sgr,6.9 
+M24,IC 4715,Sgr Star Cloud,Milky Way star cloud,Sgr,4.6 
+M25,IC 4725,,Open cluster,Sgr,4.6 
+M26,NGC 6694,,Open cluster,Sct,8.0 
+M27,NGC 6853,Dumbbell Nebula,Planetary nebula,Vul,7.5 
+M28,NGC 6626,,Globular cluster,Sgr,7.7 
+M29,NGC 6913,Cooling Tower,Open cluster,Cyg,7.1 
+M30,NGC 7099,,Globular cluster,Cap,7.7 
+M31,NGC 224,And Galaxy,Spiral galaxy,And,3.4 
+M32,NGC 221,,Dwarf elliptical galaxy,And,8.1 
+M33,NGC 598,Triangulum Galaxy,Spiral galaxy,Tri,5.7 
+M34,NGC 1039,,Open cluster,Per,5.5 
+M35,NGC 2168,,Open cluster,Gem,5.3 
+M36,NGC 1960,,Open cluster,Aur,6.3 
+M37,NGC 2099,,Open cluster,Aur,6.2 
+M38,NGC 1912,,Open cluster,Aur,7.4 
+M39,NGC 7092,,Open cluster,Cyg,5.5 
+M40,,Winnecke 4,Double star,UMa,9.7 
+M41,NGC 2287,,Open cluster,Cma,4.5 
+M42,NGC 1976,Orion Nebula,H II region nebula,Ori,4.0 
+M43,NGC 1982,De Mairan's Nebula,H II region nebula,Ori,9.0 
+M44,NGC 2632,Beehive Cluster,Open cluster,Cnc,3.7 
+M45,,Pleiades,Open cluster,Taurus,1.6 
+M46,NGC 2437,,Open cluster,Pup,6.1 
+M47,NGC 2422,,Open cluster,Pup,4.2 
+M48,NGC 2548,,Open cluster,Hya,5.5 
+M49,NGC 4472,,Elliptical galaxy,Vir,9.4 
+M50,NGC 2323,,Open cluster,Mon,5.9 
+M51,NGC 5194,Whirlpool Galaxy,Spiral galaxy,CVn,8.4 
+M52,NGC 7654,,Open cluster,Cas,5.0 
+M53,NGC 5024,,Globular cluster,Com,8.3 
+M54,NGC 6715,,Globular cluster,Sgr,8.4 
+M55,NGC 6809,,Globular cluster,Sgr,7.4 
+M56,NGC 6779,,Globular cluster,Lyr,8.3 
+M57,NGC 6720,Ring Nebula,Planetary nebula,Lyr,8.8 
+M58,NGC 4579,,Barred Spiral galaxy,Vir,10.5 
+M59,NGC 4621,,Elliptical galaxy,Vir,10.6 
+M60,NGC 4649,,Elliptical galaxy,Vir,9.8 
+M61,NGC 4303,,Spiral galaxy,Vir,10.2 
+M62,NGC 6266,,Globular cluster,Oph,7.4 
+M63,NGC 5055,Sunflower Galaxy,Spiral galaxy,CVn,9.3 
+M64,NGC 4826,Black Eye Galaxy,Spiral galaxy,Com,9.4 
+M65,NGC 3623,Leo Triplet,Barred Spiral galaxy,Leo,10.3 
+M66,NGC 3627,Leo Triplet,Barred Spiral galaxy,Leo,8.9 
+M67,NGC 2682,,Open cluster,Cnc,6.1 
+M68,NGC 4590,,Globular cluster,Hya,9.7 
+M69,NGC 6637,,Globular cluster,Sgr,8.3 
+M70,NGC 6681,,Globular cluster,Sgr,9.1 
+M71,NGC 6838,,Globular cluster,Sge,6.1 
+M72,NGC 6981,,Globular cluster,Aqr,9.4 
+M73,NGC 6994,,Asterism,Aqr,9.0 
+M74,NGC 628,,Spiral galaxy,Psc,10.0 
+M75,NGC 6864,,Globular cluster,Sgr,9.2 
+M76,NGC 650,Little Dumbbell Nebula,Planetary nebula,Per,10.1 
+M77,NGC 1068,Cetus A,Spiral galaxy,Cet,9.6
+M78,NGC 2068,,Diffuse nebula,Ori,8.3 
+M79,NGC 1904,,Globular cluster,Lep,8.6 
+M80,NGC 6093,,Globular cluster,Sca,7.9 
+M81,NGC 3031,Bode's Galaxy,Spiral galaxy,UMa,6.9
+M82,NGC 3034,Cigar Galaxy,Starburst galaxy,UMa,8.4
+M83,NGC 5236,Southern Pinwheel Galaxy,Barred Spiral galaxy,Hya,7.5
+M84,NGC 4374,,Lenticular galaxy,Vir,10.1
+M85,NGC 4382,,Lenticular galaxy,Com,10.0
+M86,NGC 4406,,Lenticular galaxy,Vir,9.8
+M87,NGC 4486,Vir A,Elliptical galaxy,Vir,9.6
+M88,NGC 4501,,Spiral galaxy,Com,10.4
+M89,NGC 4552,,Elliptical galaxy,Vir,10.7
+M90,NGC 4569,,Spiral galaxy,Vir,10.3
+M91,NGC 4548,,Barred Spiral galaxy,Com,11.0
+M92,NGC 6341,,Globular cluster,Her,6.3
+M93,NGC 2447,,Open cluster,Pup,6.0
+M94,NGC 4736,,Spiral galaxy,CVn,9.0
+M95,NGC 3351,,Barred Spiral galaxy,Leo,11.4
+M96,NGC 3368,,Spiral galaxy,Leo,10.1
+M97,NGC 3587,Owl Nebula,Planetary nebula,UMa,9.9
+M98,NGC 4192,,Spiral galaxy,Com,11.0
+M99,NGC 4254,,Spiral galaxy,Com,10.4
+M100,NGC 4321,,Spiral galaxy,Com,10.1
+M101,NGC 5457,Pinwheel Galaxy,Spiral galaxy,UMa,7.9
+M102,NGC 5866,Spindle Galaxy,Lenticular galaxy,Dra,10.7
+M103,NGC 581,,Open cluster,Cas,7.4
+M104,NGC 4594,Sombrero Galaxy,Lenticular galaxy,Vir,9.0
+M105,NGC 3379,,Elliptical galaxy,Leo,10.2
+M106,NGC 4258,,Spiral galaxy,CVn,9.1
+M107,NGC 6171,,Globular cluster,Oph,8.9
+M108,NGC 3556,,Barred Spiral galaxy,UMa,10.7
+M109,NGC 3992,,Barred Spiral galaxy,UMa,10.6
+M110,NGC 205,,Dwarf elliptical galaxy,And,9.0
