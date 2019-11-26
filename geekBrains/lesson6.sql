@@ -50,6 +50,16 @@ group by user_id
 order by name
 ;
 
+select
+    count(media.id) as quantity,
+    name,
+    surname
+from media
+join users u on media.user_id = u.id
+group by user_id
+order by name
+;
+
 /*
 • - Пусть задан некоторый пользователь. Из всех друзей этого пользователя найдите человека, который больше всех общался с нашим пользователем.
 • - Подсчитать общее количество лайков, которые получили пользователи младше 10 лет..
