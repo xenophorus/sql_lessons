@@ -3,6 +3,7 @@ create database library;
 
 
 -- subgenre!
+-- http://www.e-reading.life
 
 drop table if exists books;
 create table books(
