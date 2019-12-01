@@ -4,10 +4,10 @@ DROP TABLE IF EXISTS accounts;
 CREATE TABLE accounts (
   id SERIAL PRIMARY KEY,
   user_id INT,
-  total DECIMAL (11,2) COMMENT 'Счет',
+  total DECIMAL (11,2) COMMENT 'РЎС‡РµС‚',
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
   updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) COMMENT = 'Счета пользователей и интернет магазина';
+) COMMENT = 'РЎС‡РµС‚Р° РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№ Рё РёРЅС‚РµСЂРЅРµС‚ РјР°РіР°Р·РёРЅР°';
 
 INSERT INTO accounts (user_id, total) VALUES
   (4, 5000.00),
@@ -74,7 +74,7 @@ SELECT second_f(123456);
 
 
 /*
-В базе данных shop и sample присутствуют одни и те же таблицы, учебной базы данных. Переместите запись id = 1 из таблицы shop.users в таблицу sample.users. Используйте транзакции.
+Р’ Р±Р°Р·Рµ РґР°РЅРЅС‹С… shop Рё sample РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‚ РѕРґРЅРё Рё С‚Рµ Р¶Рµ С‚Р°Р±Р»РёС†С‹, СѓС‡РµР±РЅРѕР№ Р±Р°Р·С‹ РґР°РЅРЅС‹С…. РџРµСЂРµРјРµСЃС‚РёС‚Рµ Р·Р°РїРёСЃСЊ id = 1 РёР· С‚Р°Р±Р»РёС†С‹ shop.users РІ С‚Р°Р±Р»РёС†Сѓ sample.users. Р�СЃРїРѕР»СЊР·СѓР№С‚Рµ С‚СЂР°РЅР·Р°РєС†РёРё.
 
 */
 
@@ -84,7 +84,7 @@ create table sample_users(
     birthday date DEFAULT NULL
 );
 
--- Я не уверен, что правильно понял задание
+-- РЇ РЅРµ СѓРІРµСЂРµРЅ, С‡С‚Рѕ РїСЂР°РІРёР»СЊРЅРѕ РїРѕРЅСЏР» Р·Р°РґР°РЅРёРµ
 
 start transaction;
 insert into sample_users (id) (select id from users where id = 1);
@@ -93,7 +93,7 @@ commit;
 
 
 /*
-Создайте представление, которое выводит название name товарной позиции из таблицы products и соответствующее название каталога name из таблицы catalogs.*/
+РЎРѕР·РґР°Р№С‚Рµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРµ, РєРѕС‚РѕСЂРѕРµ РІС‹РІРѕРґРёС‚ РЅР°Р·РІР°РЅРёРµ name С‚РѕРІР°СЂРЅРѕР№ РїРѕР·РёС†РёРё РёР· С‚Р°Р±Р»РёС†С‹ products Рё СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РµРµ РЅР°Р·РІР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° name РёР· С‚Р°Р±Р»РёС†С‹ catalogs.*/
 
 create view prod_cat as
 select products.name as prod_name,
@@ -105,7 +105,7 @@ join catalogs on products.catalog_id = catalogs.id
 select * from prod_cat;
 
 /*
-Создайте хранимую функцию hello(), которая будет возвращать приветствие, в зависимости от текущего времени суток. С 6:00 до 12:00 функция должна возвращать фразу "Доброе утро", с 12:00 до 18:00 функция должна возвращать фразу "Добрый день", с 18:00 до 00:00 — "Добрый вечер", с 00:00 до 6:00 — "Доброй ночи".
+РЎРѕР·РґР°Р№С‚Рµ С…СЂР°РЅРёРјСѓСЋ С„СѓРЅРєС†РёСЋ hello(), РєРѕС‚РѕСЂР°СЏ Р±СѓРґРµС‚ РІРѕР·РІСЂР°С‰Р°С‚СЊ РїСЂРёРІРµС‚СЃС‚РІРёРµ, РІ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё РѕС‚ С‚РµРєСѓС‰РµРіРѕ РІСЂРµРјРµРЅРё СЃСѓС‚РѕРє. РЎ 6:00 РґРѕ 12:00 С„СѓРЅРєС†РёСЏ РґРѕР»Р¶РЅР° РІРѕР·РІСЂР°С‰Р°С‚СЊ С„СЂР°Р·Сѓ "Р”РѕР±СЂРѕРµ СѓС‚СЂРѕ", СЃ 12:00 РґРѕ 18:00 С„СѓРЅРєС†РёСЏ РґРѕР»Р¶РЅР° РІРѕР·РІСЂР°С‰Р°С‚СЊ С„СЂР°Р·Сѓ "Р”РѕР±СЂС‹Р№ РґРµРЅСЊ", СЃ 18:00 РґРѕ 00:00 вЂ” "Р”РѕР±СЂС‹Р№ РІРµС‡РµСЂ", СЃ 00:00 РґРѕ 6:00 вЂ” "Р”РѕР±СЂРѕР№ РЅРѕС‡Рё".
 */
 drop function if exists hello;
 create function hello ()
@@ -126,7 +126,7 @@ end;
 select hello();
 
 /*
-В таблице products есть два текстовых поля: name с названием товара и description с его описанием. Допустимо присутствие обоих полей или одно из них. Ситуация, когда оба поля принимают неопределенное значение NULL неприемлема. Используя триггеры, добейтесь того, чтобы одно из этих полей или оба поля были заполнены. При попытке присвоить полям NULL-значение необходимо отменить операцию.
+Р’ С‚Р°Р±Р»РёС†Рµ products РµСЃС‚СЊ РґРІР° С‚РµРєСЃС‚РѕРІС‹С… РїРѕР»СЏ: name СЃ РЅР°Р·РІР°РЅРёРµРј С‚РѕРІР°СЂР° Рё description СЃ РµРіРѕ РѕРїРёСЃР°РЅРёРµРј. Р”РѕРїСѓСЃС‚РёРјРѕ РїСЂРёСЃСѓС‚СЃС‚РІРёРµ РѕР±РѕРёС… РїРѕР»РµР№ РёР»Рё РѕРґРЅРѕ РёР· РЅРёС…. РЎРёС‚СѓР°С†РёСЏ, РєРѕРіРґР° РѕР±Р° РїРѕР»СЏ РїСЂРёРЅРёРјР°СЋС‚ РЅРµРѕРїСЂРµРґРµР»РµРЅРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ NULL РЅРµРїСЂРёРµРјР»РµРјР°. Р�СЃРїРѕР»СЊР·СѓСЏ С‚СЂРёРіРіРµСЂС‹, РґРѕР±РµР№С‚РµСЃСЊ С‚РѕРіРѕ, С‡С‚РѕР±С‹ РѕРґРЅРѕ РёР· СЌС‚РёС… РїРѕР»РµР№ РёР»Рё РѕР±Р° РїРѕР»СЏ Р±С‹Р»Рё Р·Р°РїРѕР»РЅРµРЅС‹. РџСЂРё РїРѕРїС‹С‚РєРµ РїСЂРёСЃРІРѕРёС‚СЊ РїРѕР»СЏРј NULL-Р·РЅР°С‡РµРЅРёРµ РЅРµРѕР±С…РѕРґРёРјРѕ РѕС‚РјРµРЅРёС‚СЊ РѕРїРµСЂР°С†РёСЋ.
 
 */
 
@@ -146,3 +146,56 @@ create trigger prod_check before insert on products
 insert into products (id, name, description) values(35, '', '');
 insert into products values();
 select * from products;
+
+
+use vk;
+
+drop procedure if exists vk.friendship_offers;
+create procedure vk.friendship_offers(in for_user_id INT)
+begin
+
+    select p.user_id
+    from uprofiles p
+    join uprofiles p2 on p.hometown = p2.hometown and p2.user_id <> p.user_id
+    where p.user_id = for_user_id
+    union
+    select uc1.user_id
+    from users_communities as uc1
+    join users_communities as uc2 on uc1.community_id = uc2.community_id
+    where uc2.user_id <> for_user_id
+    union
+    select fr3.targer_user_id
+    from fr_requests as fr1
+    join fr_requests as fr2 on (fr1.targer_user_id = fr2.initiator_user_id)
+                            or (fr1.initiator_user_id = fr1.targer_user_id)
+    join fr_requests as fr3 on (fr2.targer_user_id = fr3.initiator_user_id)
+                            or (fr2.initiator_user_id = fr3.targer_user_id)
+    where fr2.status = 'approved'
+    and   fr3.status = 'approved'
+    and   fr3.targer_user_id <> for_user_id
+
+    order by rand() limit 10
+    ;
+
+end;
+
+call vk.friendship_offers(3);
+
+
+create function vk.fr_direction(check_user_id int)
+returns float reads sql data
+begin
+    declare reqs_to_user int;
+    declare reqs_from_user int;
+    set reqs_to_user = (
+        select count(*)
+        from fr_requests where targer_user_id = check_user_id
+        );
+    set reqs_from_user = (
+        select count(*)
+        from fr_requests where initiator_user_id = check_user_id
+        );
+    return reqs_to_user / reqs_from_user;
+
+end;
+
