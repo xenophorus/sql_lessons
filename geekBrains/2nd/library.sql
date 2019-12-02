@@ -2,6 +2,12 @@ drop database if exists library;
 create database library;
 use library;
 
+/*
+TODO
+book review
+объединить таблицы, бит зала?
+
+ */
 drop table if exists author;
 create table author(
     id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
@@ -45,6 +51,15 @@ insert into `genre` values (1,'Бизнес-книги'),
 (26,'Эротика и секс'),
 (27,'Юмористическая литература');
 
+drop table if exists subgenre;
+create table subgenre(
+    id int unsigned primary key,
+    genre_id int unsigned,
+    subgenre_name varchar(100),
+
+    foreign key (genre_id) references genre(id)
+);
+
 drop table if exists books;
 create table books(
     id INT UNSIGNED PRIMARY KEY,
@@ -56,17 +71,9 @@ create table books(
 
     INDEX (book_name),
     foreign key (author_id) references author(id),
-    foreign key (subgenre_id) references genre(id)
+    foreign key (subgenre_id) references subgenre(id)
 ) AUTO_INCREMENT = 10000;
 
-drop table if exists subgenre;
-create table subgenre(
-    id int unsigned primary key,
-    genre_id int unsigned,
-    subgenre_name varchar(100),
-
-    foreign key (genre_id) references genre(id)
-);
 
 insert into subgenre values
 (1,1,'Банковское дело'),
